@@ -1,3 +1,10 @@
+.search {
+  position: relative;
+  top: 180px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
 .logo-container {
   width: 295px;
   height: 100px;
@@ -5,13 +12,6 @@
   background-image: url(../static/google-logo.png);
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.search {
-  position: relative;
-  top: 150px;
-  width: 1000px;
-  margin: 0 auto;
 }
 
 .search-area {

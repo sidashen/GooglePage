@@ -5,7 +5,10 @@ import Header from './header';
 
 function App() {
   return (
-    <Header className = "header" name="Jay">
+    <Header 
+    className = "header" 
+    gmailLink="Gmail"
+    imagesLink="Images">
     </Header>
   )
 }

@@ -1,0 +1,73 @@
+.logo-container {
+  width: 295px;
+  height: 100px;
+  margin: 0 auto;
+  background-image: url(../static/google-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search {
+  position: relative;
+  top: 150px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.search-area {
+  position: relative;
+  height: 48px;
+  width: 630px;
+  margin: 30px auto;
+}
+
+.input {
+  width: 597px;
+  height: 47px;
+  padding-right: 40px;
+  outline-style: none;
+  border-radius: 28px;
+  border: 1px solid #ccc; 
+  text-indent: 37px;
+  font-size: 16px;
+}
+
+.history-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.links {
+  margin: 0 7px;
+  height: 38px;
+  padding: 10px 20px;
+  background-color: #f2f3f4;
+  border-radius: 5px;
+}
+
+.icon-search {
+  position: relative;
+  left: 32px;
+  top: 2px;
+}
+
+.icon-yuyin {
+  position: relative;
+  left: 581px;
+  top: -35px;
+  font-size: 23px;
+}
+
+.language-offered {
+  width: 342px;
+  margin: 0 auto;
+}
+
+.description {
+  margin: 8px;
+}
+
+.language {
+  color: blue !important;
+}

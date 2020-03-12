@@ -1,15 +1,15 @@
 import React from 'react';
-import './icon/iconfont.css';
-import './styles/header.css';
+import '../icon/iconfont.css';
+import '../styles/header.css';
 
 function Header(props) {
   return (
-    <div className="header">
+    <nav className="header">
       <div className="link"><a href="#">{props.gmailLink}</a></div>
       <div className="link"><a href="#">{props.imagesLink}</a></div>
       <i className="iconfont icon-ziyuan"></i>
       <div className="profile-photo"></div>
-    </div>
+    </nav>
   )
 }
 

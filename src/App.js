@@ -19,9 +19,7 @@ function App() {
       mainLanguage="中文（繁体）"
       optionalLanguage="中文（简体）">
     </Search>
-    <Footer
-      address="Hong Kong"
-    >
+    <Footer address="Hong Kong">
     </Footer>
     </div>
   )

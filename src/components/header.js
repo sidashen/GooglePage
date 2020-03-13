@@ -10,7 +10,7 @@ function Header(props) {
       <i className="iconfont icon-ziyuan"></i>
       <div className="profile-photo"></div>
     </nav>
-  )
+  );
 }
 
 export default Header;

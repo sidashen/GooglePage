@@ -7,10 +7,7 @@ import Footer from './components/footer'
 function App() {
   return (
     <div>
-    <Header 
-      gmailLink="Gmail"
-      imagesLink="Images">
-    </Header>
+    <Header></Header>
     <Search
       googleInput="Search Google or type a URL"
       searchLink="Google Search"

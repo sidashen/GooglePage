@@ -7,12 +7,11 @@ import Footer from './components/footer'
 function App() {
   return (
     <div>
-    <Header></Header>
-    <Search></Search>
-    <Footer address="Hong Kong">
-    </Footer>
+      <Header></Header>
+      <Search></Search>
+      <Footer></Footer>
     </div>
-  )
+  );
 }
 
 export default App;

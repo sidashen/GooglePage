@@ -1,12 +1,10 @@
 import React from 'react';
 import '../styles/footer.css';
 
-function Footer(props) {
+function Footer() {
   return(
     <footer className="footer">
-    <div className="address">
-      {props.address}
-    </div>
+    <div className="address">Hong Kong</div>
     <div className="footer-details footer-display">
       <ul className="footer-function footer-display">
         <li>Advertising</li>
@@ -21,7 +19,7 @@ function Footer(props) {
       </ul>
     </div>
   </footer>
-  )
+  );
 }
 
 export default Footer;

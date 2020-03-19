@@ -3,34 +3,33 @@ import '../styles/footer.css';
 import { NavLink } from 'react-router-dom';
 
 function Footer() {
+  const leftLinkContents = ['Advertising', 'Business', 'About', 'How Search works'];
+  const leftListItems = leftLinkContents.map((linkContent) => {
+    <NavLink to='/footer'
+      style={{ color: '#7e7b7b' }}
+      activeStyle={{ color: 'red' }}>
+      {linkContent}
+    </NavLink>
+  });
+
+  const rightLinkContents = ['Privacy', 'Terms', 'Settings'];
+  const rightListItems = rightLinkContents.map((linkContent) => {
+    <NavLink to='/footer'
+      style={{ color: '#7e7b7b' }}
+      activeStyle={{ color: 'red' }}>
+      {linkContent}
+    </NavLink>
+  });
+
   return (
     <footer className="footer">
       <div className="address">Hong Kong</div>
       <div className="footer-details footer-display">
         <ul className="footer-function footer-display">
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>Advertising</li>
-          </NavLink>
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>Business</li>
-          </NavLink>
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>About</li>
-          </NavLink>
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>How Search works</li>
-          </NavLink>
+          {leftListItems}
         </ul>
         <ul className="footer-info footer-display">
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>Privacy</li>
-          </NavLink>
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>Terms</li>
-          </NavLink>
-          <NavLink to='/footer' style={{ color: '#7e7b7b' }} activeStyle={{ color: 'red' }}>
-            <li>Settings</li>
-          </NavLink>
+          {rightListItems}
         </ul>
       </div>
     </footer>
